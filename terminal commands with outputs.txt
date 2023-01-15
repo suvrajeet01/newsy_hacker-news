@@ -1,0 +1,243 @@
+PS D:\web-dev\react_solidsail.course> git clone https://github.com/suvrajeet01/newsy_hacker-news.git
+Cloning into 'newsy_hacker-news'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+PS D:\web-dev\react_solidsail.course> 
+
+
+
+
+
+
+PS D:\web-dev\react_solidsail.course> git clone https://github.com/suvrajeet01/newsy_hacker-news.git
+Cloning into 'newsy_hacker-news'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+PS D:\web-dev\react_solidsail.course> sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"                                                                                                                      Invoke-WebRequest : A parameter cannot be found that matches parameter name 'fsSL'.                                     At line:1 char:15                                                                                                       
++ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/too ...
++               ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+ 
+sh : The term 'sh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/too ...
++ ~~
+    + CategoryInfo          : ObjectNotFound: (sh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web-dev\react_solidsail.course> sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sh : The term 'sh' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/maste ...
++ ~~
+    + CategoryInfo          : ObjectNotFound: (sh:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web-dev\react_solidsail.course>clear
+
+
+
+
+
+
+PS D:\web-dev\react_solidsail.course> npm install -g @ionic/cli
+npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated superagent@5.3.1: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+
+added 220 packages in 31s
+
+27 packages are looking for funding
+  run `npm fund` for details
+PS D:\web-dev\react_solidsail.course> npm install formidable@v3
+
+added 6 packages in 3s
+
+1 package is looking for funding
+  run `npm fund` for details
+PS D:\web-dev\react_solidsail.course> npm install superagent
+
+added 27 packages, and audited 34 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\web-dev\react_solidsail.course> yarn add superagent
+yarn : The term 'yarn' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ yarn add superagent
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (yarn:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\web-dev\react_solidsail.course>ctrl + l
+
+
+
+
+PS D:\web-dev\react_solidsail.course> npm install -g @ionic/cli
+npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated superagent@5.3.1: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+
+added 220 packages in 31s
+
+PS D:\web-dev\react_solidsail.course> npm i -g firebase-tools
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142     
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+
+added 673 packages in 23s
+
+36 packages are looking for funding
+  run `npm fund` for details
+PS D:\web-dev\react_solidsail.course> npm fund
+react_solidsail.course
+├── https://ko-fi.com/tunnckoCore/commissions
+│   └── formidable@2.1.1
+└── https://github.com/sponsors/ljharb
+    └── qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.1.3, has-symbols@1.0.3, object-inspect@1.12.2
+
+PS D:\web-dev\react_solidsail.course> 
+
+
+
+
+
+
+
+
+PS D:\web-dev\react_solidsail.course> npm install -g @ionic/cli
+npm WARN deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated superagent@5.3.1: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+
+added 220 packages in 31s
+
+PS D:\web-dev\react_solidsail.course> npm i -g firebase-tools
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142     
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+
+added 673 packages in 23s
+
+36 packages are looking for funding
+  run `npm fund` for details
+PS D:\web-dev\react_solidsail.course> npm fund
+react_solidsail.course
+├── https://ko-fi.com/tunnckoCore/commissions
+│   └── formidable@2.1.1
+└── https://github.com/sponsors/ljharb
+    └── qs@6.11.0, side-channel@1.0.4, call-bind@1.0.2, get-intrinsic@1.1.3, has-symbols@1.0.3, object-inspect@1.12.2
+
+PS D:\web-dev\react_solidsail.course> cd .\newsy_hacker-news\
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> pwd
+
+Path
+----
+D:\web-dev\react_solidsail.course\newsy_hacker-news
+
+
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> ls
+
+
+    Directory: D:\web-dev\react_solidsail.course\newsy_hacker-news
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     05:53                node_modules
+-a----        11-01-2023     05:49          17140 -
+-a----        11-01-2023     05:53          12304 package-lock.json
+-a----        11-01-2023     05:53             83 package.json
+-a----        11-01-2023     05:47             70 README.md
+-a----        11-01-2023     05:47              0 terminal commands with outputs.txt
+
+
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> cd ..
+PS D:\web-dev\react_solidsail.course> ls
+
+
+    Directory: D:\web-dev\react_solidsail.course
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     05:56                newsy_hacker-news
+
+
+PS D:\web-dev\react_solidsail.course> cd .\newsy_hacker-news\
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> pwd
+
+Path
+----
+D:\web-dev\react_solidsail.course\newsy_hacker-news
+
+
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> ls
+
+
+    Directory: D:\web-dev\react_solidsail.course\newsy_hacker-news
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-01-2023     05:53                node_modules
+-a----        11-01-2023     05:49          17140 -
+-a----        11-01-2023     05:53          12304 package-lock.json
+-a----        11-01-2023     05:53             83 package.json
+-a----        11-01-2023     05:47             70 README.md
+-a----        11-01-2023     05:47              0 terminal commands with outputs.txt
+
+
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news>clear
+
+
+
+
+
+
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
+
+
+
+
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> ionic start
+ionic : File C:\Users\preda\AppData\Roaming\npm\ionic.ps1 cannot be loaded because running scripts is disabled on this 
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ionic start
++ ~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy : Access to the registry key 
+'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell' is denied. To change the execution 
+policy for the default (LocalMachine) scope, start Windows PowerShell with the "Run as administrator" option. To 
+change the execution policy for the current user, run "Set-ExecutionPolicy -Scope CurrentUser".
+At line:1 char:1
++ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], UnauthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.PowerShell.Commands.SetExecutionPolicyComma  
+   nd
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news>
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> ionic start
+? Use the app creation wizard? Yes
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> 
+
+
+
+
+
+PS C:\WINDOWS\system32> Set-ExecutionPolicy -ExecutionPolicy Restricted
