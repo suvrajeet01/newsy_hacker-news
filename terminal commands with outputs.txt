@@ -1284,4 +1284,34 @@ On branch trunk
 Your branch is up to date with 'origin/trunk'.
 
 nothing to commit, working tree clean
-PS D:\web-dev\react_solidsail.course\newsy_hacker-news> 
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> PS D:\web-dev\react_solidsail.course\newsy_hacker-news> git push 
+Enumerating objects: 442, done.
+Counting objects: 100% (442/442), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (421/421), done.
+Writing objects: 100% (441/441), 504.61 KiB | 3.63 MiB/s, done.
+Total 441 (delta 57), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (57/57), done.
+To https://github.com/suvrajeet01/newsy_hacker-news.git
+   bfcc348..7a5dbc1  trunk -> trunk
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands with outputs.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> git add .  
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news> git commit -m 'terminal commands & outputs'
+[trunk 3c5fa40] terminal commands & outputs
+ 1 file changed, 1045 insertions(+), 1 deletion(-)
+PS D:\web-dev\react_solidsail.course\newsy_hacker-news>clear
+
